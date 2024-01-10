@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.container {
+     
+}
+#announcement {
+    margin: 0%;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 17px;
+    background-color: black;
+    text-align: center;
+    box-sizing: inherit;
+    padding-top: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.logo {
+    max-width: 120px;
+}
+header {  
+    padding-left: 70px; 
+    position: sticky;
+    width: 100%;
+    top: 0%;
+    background-color: black;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.nav {
+  padding-left: 30px;
+}
+.nav ul li{
+    display: inline;
+    letter-spacing: 1px;
+}
+.nav a {
+    color: rgb(193, 182, 182);
+    text-decoration: none;
+    padding: 15px;
+}
+.nav ul li a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: white;
+}
+.nav .home {
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;    
+}
+.nav .home :hover{
+    text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+.main-content {
+    padding: 36px;
+    margin: 0 50px;
+}
+.wrapper img{
+    width: 359px;
+    height: 363px;
+
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 50px;
+    font-size: 17px;
+}
+.sub-container{
+    width: 100%;
+    background-color:;
+    height: 610px;
+    display: flex;
+    letter-spacing: 1px;
+}
+.box1 img {
+    width: 100%;
+    width: 400px;
+    height: 500px;
+}
+.box1,.box2 {
+  background-color: 
+  text-align: left;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+     
+}
+.box2 {
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.sub-container.section1 {
+    text-align: top;
+}
+.section1 {
+    margin-bottom: 36px;
+}
+.section2 {
+    margin-bottom: 36px;
+    font-size: 20px;
+}
+.foot{
+    font-size: large;
+    background-color: black;
+    height: 346px;
+    line-height: 50px;
+    padding: 40px;
+    text-decoration: none;
+}
+.foot ul {
+    list-style: none;
+    color: white;
+    
+}
+.foot ul li {
+    text-align: center;
+}
+.foot ul li a {
+    text-decoration: none;
+    color: #c5baba;
+    text-decoration: underline;
+}
+.footer-content {
+    height: 120px;
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 40px;
+    color: white;
+    display: flex;
+    font-size: 14px;
+}
+.footer-content a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;    
+}
